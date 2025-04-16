@@ -6,7 +6,7 @@ WORKDIR /var/www/html
 
 # Clean existing files and copy source
 RUN rm -rf ./*
-COPY src/ .
+COPY . .
 
 # Expose default port
 EXPOSE 80
